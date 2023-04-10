@@ -314,7 +314,7 @@ do
                         Console.WriteLine("Please edit Physical description\n");
 
                         readResult = Console.ReadLine();
-                        while(readResult.Length == 0)
+                        while(readResult == null || readResult.Length == 0)
                         {
                             Console.WriteLine("Please edit Physical description\n");
                             readResult = Console.ReadLine();

@@ -2,9 +2,9 @@ namespace SalesCalculator
 {
     public class Sale
     {
-        public string ShopName { get; }
-        public string ProductCategory { get; }
-        public int Amount { get; }
+        public string ShopName;
+        public string ProductCategory;
+        public int Amount;
 
         public Sale(string shopName, string productCategory, int amount)
         {
